@@ -14,6 +14,7 @@ const Form = () => {
     return(
         <form className="row form-group">
             <label className="col-2">Your Name:</label>
+            {/* <label className="col-2">Put Yo' Bitch-Ass Name Here:</label> */}
             <input className="form-control col-5" type="text" onChange={onChangeHandler}/>
         </form>
     )

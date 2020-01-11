@@ -3,7 +3,6 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import FormWrapper from './components/FormWrapper';
-// import Form from './components/Form';
 import Wrapper from './components/Wrapper';
 // import MyContext from './context/MyContext';
 
@@ -14,7 +13,6 @@ function App() {
     <div className="App">
         <Wrapper.Provider value={{name, setName}}>
           <Navbar />
-          {/* <Form /> */}
           <FormWrapper />
         </Wrapper.Provider>
     </div>
